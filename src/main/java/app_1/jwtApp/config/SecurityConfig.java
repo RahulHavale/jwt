@@ -10,8 +10,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration      //upon starting project this configuration file will run
-public class SecurityConfig {
-    
+
+public class SecurityConfig { //This is feature branch edits
+  
     @Bean //this will create object & details will be stored in it
     public SecurityFilterChain securityFilterChain(
             HttpSecurity http
