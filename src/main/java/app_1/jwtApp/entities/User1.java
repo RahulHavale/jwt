@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-@Setter// git push
+@Setter
 @Entity
 @Table(name = "user1")
 public class User1 {
